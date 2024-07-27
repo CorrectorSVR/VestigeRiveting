@@ -160,8 +160,11 @@ gap: 40px;
         width: auto;
     }
 
+    
     .intro__imagen {
         width: auto;
+        overflow-x: auto;
+        
     }
     .intro__enlaces__link {
         width: auto;
