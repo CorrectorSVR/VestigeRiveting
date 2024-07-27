@@ -105,7 +105,9 @@ gap: 40px;
 }
 
 .intro__imagen__contenedor {
+    width: 100%;
     overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
 .intro__imagen {
     width: 100%;
