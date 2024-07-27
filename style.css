@@ -21,7 +21,7 @@ body {
 .intro {
     display: flex;
     align-items: center;
-    margin: 5% 15% ;
+    margin: 4% 15% ;
     justify-content: space-between;
     gap: 82px;
 }
@@ -105,6 +105,8 @@ gap: 40px;
 }
 
 .intro__imagen__contenedor {
+    display: flex;
+    justify-content: center;
     width: 100%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
