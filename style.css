@@ -164,7 +164,7 @@ gap: 40px;
     .intro__imagen {
         width: auto;
         overflow-x: auto;
-        
+        overflow-y: auto;
     }
     .intro__enlaces__link {
         width: auto;
