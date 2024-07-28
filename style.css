@@ -111,6 +111,8 @@ gap: 40px;
 }
 .intro__imagen {
     width: 80%;
+    margin: auto;
+    display: block;
 }
 
 .footer {
