@@ -16,7 +16,7 @@ body {
 
 .header {
     display: flex;
-    height: 10px;
+    height: 15px;
     justify-content: center;
     align-items: center;
     padding: 1% 0;
