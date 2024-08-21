@@ -16,7 +16,7 @@ body {
 
 .header {
     display: flex;
-    height: 5px;
+    height: 10px;
     justify-content: center;
     align-items: center;
     padding: 1% 0;
@@ -130,4 +130,90 @@ body {
     font-family: "Oswald", sans-serif;
     font-size: 32px;
     font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+    .presentacion2 {
+        flex-direction: column-reverse;
+        margin: 2% 10%;
+        gap: 50px;
+    }
+
+    .titulo {
+        font-size: 60px;
+        margin-top: 20px;
+    }
+
+    .contenido__texto {
+        font-size: 40px;
+    }
+
+    .enlace__link {
+        width: 80%;
+        font-size: 28px;
+        padding: 18px 0;
+    }
+
+    .intro__imagen {
+        width: 100%;
+        min-width: 600px;
+    }
+}
+
+@media (max-width: 700px) {
+    .presentacion2 {
+        margin: 5% 5%;
+        gap: 30px;
+    }
+
+    .titulo {
+        font-size: 50px;
+    }
+
+    .contenido__texto {
+        font-size: 35px;
+    }
+
+    .enlace__link {
+        width: 100%;
+        font-size: 25px;
+        padding: 15px 0;
+    }
+
+    .intro__imagen {
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .header {
+        padding: 5px;
+    }
+
+    .boton__back {
+        font-size: 30px;
+    }
+
+    .titulo {
+        font-size: 50px;
+    }
+
+    .contenido__texto {
+        font-size: 30px;
+    }
+
+    .enlace__link {
+        font-size: 20px;
+        padding: 15px 0;
+        width: 80%;
+    }
+
+    .imagen {
+        width: 100%;
+    }
+
+    .footer {
+        font-size: 24px;
+        padding: 20px;
+    }
 }
