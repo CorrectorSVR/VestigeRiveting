@@ -9,6 +9,7 @@
 }
 
 body {
+    background-image: url(img/Mix.jpg);
     background-color: #CDC2A5;
     color: #b0e0e6;
     box-sizing: border-box;
@@ -36,7 +37,7 @@ body {
     display: inline-block;
     padding: 10px 20px;
     font-size: 40px;
-    color: #03346E;
+    color: #57b9fa;
     text-align: center;
     text-decoration: none;
     border-radius: 5px; /* Bordes redondeados */
