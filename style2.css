@@ -126,6 +126,20 @@ body {
     width: 100%;
     margin: auto;
     display: block;
+    mask-image: radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2));
+    mask-size: cover;
+    mask-position: center;
+    transition: transform 0.3s ease, mask-image 0.3s ease;
+}
+
+.intro__imagen:hover {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4); /* Sombra suave */
+    mask-image: radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)); /* Más opacidad en los bordes */
+}
+
+.intro__imagen:active {
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.6); /* Sombra más intensa */
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); /* Máscara lineal en clic */
 }
 
 .footer {

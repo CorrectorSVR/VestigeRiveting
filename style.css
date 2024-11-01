@@ -129,6 +129,20 @@ gap: 40px;
     width: 80%;
     margin: auto;
     display: block;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    mask-size: cover;
+    mask-position: center;
+    transition: filter 0.3s ease, mask-image 0.3s ease;
+}
+
+.intro__imagen:hover {
+    filter: blur(1px); /* Desenfoque leve */
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)); /* Más opacidad en la máscara */
+}
+
+.intro__imagen:active {
+    filter: blur(2px); /* Más desenfoque al hacer clic */
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)); /* Máscara de contraste vertical */
 }
 
 .footer {
